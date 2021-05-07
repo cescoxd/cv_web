@@ -213,3 +213,59 @@ color: green;
     float: right;
     padding-right: 1%;
 }
+@media screen and (max-width: 750px) {
+    #header {
+        padding: 30vh 10px;
+    }
+    #header i {
+        padding-left: 38%;
+    }
+    .relleno-columnas {
+        padding-right: 0px;
+    }
+    .flex {
+        display: block;
+    }
+    .relleno-lateral {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .column-1 {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .column-2 {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    #section-1 {
+        width: 100%;
+    }
+    #section-3 {
+        width: 100%;
+    }
+    #section-5 {
+        width: 100%;
+    }
+    #section-6 {
+        width: 100%;
+    }
+    #section-4 {
+        width: 100%;
+    }
+    .relleno-izquierda {
+        padding-left: 0%;
+    }
+    .relleno-derecha {
+        padding-left: 0%;
+    }
+    #section-2 iframe {
+        width: 100%;
+        height: 270px;
+    }
+    #mapa {
+        width: 100%;
+    }
+}
